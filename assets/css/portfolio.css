@@ -5,21 +5,23 @@
 
 .container-fluid {
     padding-top: 8px;
-    background-color: blue !important;
+    /* background-color: blue !important; */
+}
+
+nav .brand-logo {
+    color: rgb(75, 73, 73) !important;
 }
 
 .navAbout {
-    background-image: url("../images/");
-}
-
-.header-image {
-    background-image: url("../images/coastWhiteHouses.jpg");
+    background-image: url("../images/bannerR2-Lv.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     background-color: #999;
+    color: rgb(75, 73, 73) !important;
+    height: 390px !important;
 }
+
 .hero.is-primary,
 .navbar-menu, 
 #navMenu {
@@ -36,6 +38,7 @@
 
 .navbar-item {
     font-family: 'Lato', sans-serif;
+    color: rgb(75, 73, 73);
 }
 
 .nav-wrapper{
@@ -47,10 +50,12 @@
 .brand-logo {
     font-weight: 300;
     font-size: 30px;
+    color: rgb(75, 73, 73);
 }
 
 #logo2 {
     font-weight: 900;
+    color: rgb(75, 73, 73);
 }
 
 .navbar-end,
@@ -363,6 +368,36 @@ body #main {
 
     }
 
+.card,    
+.image {
+    font-family: "Lato", sans-serif !important;
+    display: inline-block;
+    width: 284px;
+    height: auto;
+}
+
+.card-image {
+    display: inline-block;
+    height: auto;
+}
+
+.portfolioImg {
+    height: 182px;
+    width: 284px;
+}   
+
+.card-title {
+    color:#f8f6f6 !important;
+    font-weight: 900 !important;
+    text-shadow: 2px 2px rgb(7, 7, 7) !important;
+}
+
+h5 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: #E5982B;
+}
+
 
 /* Footer */
 
@@ -380,35 +415,6 @@ footer {
     -webkit-font-smoothing: antialiased;
 }
 
-/* .fa-twitter::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f099";
-}
-
-.fa-facebook-f::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f39e";
-}
-
-.fa-instagram::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f16d";
-}
-
-.fa-github::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f09b";
-}
-
-.fa-linkedin-in::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f0e1";
-} */
 .icon,
 .copyright {
     display: inline-block;

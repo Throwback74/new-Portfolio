@@ -1,3 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Open+Sans|Raleway|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+<div class="container-fluid">
+  <nav class="navbar navAbout">
+    <div class="container">
+        <div class="navbar-brand columns is-desktop is-vcentered">
+            <a class="navbar-item">
+                
+                <a href="index.html" class="brand-logo navbar-item">COREY
+                    <span id=logo2>SLADE</span>
+                </a>
+            </a>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                    <span aria-hidden="true" id="firstBurger"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </span>
+            </a>
+        </div>
+        <div id="navbarMenuHeroA navMenu" class="navbar-menu has-text-white">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">
+                    HOME
+                </a>
+                <a href="about.html" class="navbar-item">
+                    ABOUT
+                </a>
+                <a href="portfolio.html" class="navbar-item">
+                    PORTFOLIO
+                </a>
+                <a href="contact.html" class="navbar-item">
+                    CONTACT
+                </a>
+                </span>
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
 
 
 
@@ -13,33 +69,105 @@
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
                         <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate">
                         <label for="last_name">Last Name</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                        <label for="disabled">Disabled</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="password" class="validate">
-                        <label for="password">Password</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
+                        <input placeholder="Email" id="email" type="text" class="validate">
                         <label for="email">Email</label>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="subject" id="subject" type="text" class="validate">
+                        <label for="subject">Subject</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                            <label for="message">Message</label><br>
+                        <!-- <input id="message" type="message" class="validate"> -->
+                        <textarea placeholder="Enter Message" id="message" name="message" required="required"></textarea>
+                        <!-- <label for="message">Message</label> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit">
                 </div>
             </form>
         </div>
     </div>
 </div>
+<hr>
+<div class="content">
+<div class="columns">
+    <div class="column is-three-fifths is-offset-one-fifth">
+    <h6>While Above Form is Under Construction, Please Reach me by the Contact Methods Below:</h6>
+    </div>
+</div>
+<div class="columns">
+    <div class="column"></div>
+    <div class="column is-two-fifths">
+    <p class="contactDiv">Email Address: corey.slade@gmail.com</p>
+    </div>
+    <div class="column is-two-fifths">
+    <p class="contactDiv">Phone Number: (760) 454-7236</p>
+    </div>
+</div>    
+<div class="columns">
+<div class="column"></div>
+    <div class="column is-two-fifths">
+        <a href="https://github.com/Throwback74/"><p class="contactDiv">Github Repository</p></a>
+    </div>
+    <div class="column is-two-fifths">
+        <a href="https://www.linkedin.com/in/corey-slade-3ab015b7/"><p class="contactDiv">LinkedIn</p></a>
+    </div>
+</div>
+
+
+
+<!-- Footer - add a tool-tip w/ the name of each Social Media Site later -->
+    <!-- class="level has-text-centered" -->
+    <footer>
+        <!-- level item has-text-centered -->
+        <div class="columns">
+            <div class=column></div>
+            <div class="column is-one-third">
+            <p class="has-text-centered">
+                <!-- level item  -->
+                <a href="#" class="icon fab fa-twitter"><label for="Twitter">'   '</label></a>   
+            <!-- </p>
+            <p class="level item has-text-centered"> -->
+                <a href="#" class="icon fab fa-facebook-f"><label for="Facebook">'   '</label></a>   
+            <!-- </p>
+            <p class="level item has-text-centered"> -->
+                <a href="#" class="icon fab fa-instagram"><label for="Instagram">'   '</label></a>   
+            <!-- </p>
+            <p class="level item has-text-centered"> -->
+                <a href="#" class="icon fab fa-github"><label for="Github">'   '</label></a>   
+            <!-- </p>
+            <p class="level item has-text-centered"> -->
+                <a href="#" class="icon fab fa-linkedin-in"><label for="LinkedIn">'   '</label></a>   
+            </p>
+            </div>
+        <div class=column></div>
+        
+        </div>
+        <!-- <div class="level item has-text-centered"> --> 
+            <!-- <p class="level item has-text-centered">&copy; Copyright. All rights reserved.</p> -->
+        <!-- </div> -->
+    </footer>
+      
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+      <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+  
+  </html>
