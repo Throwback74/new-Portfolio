@@ -32,6 +32,11 @@ nav .brand-logo {
     margin-top: 1em;
 }
 
+.navbar-end {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
 .navbar-menu {
     background-color: rgba(100, 93, 206, 0) !important;
 }

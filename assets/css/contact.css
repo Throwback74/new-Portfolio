@@ -36,6 +36,11 @@ nav .brand-logo {
     background-color: rgba(100, 93, 206, 0) !important;
 }
 
+.navbar-end {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
 .navbar-item {
     font-family: 'Lato', sans-serif;
     color: rgb(75, 73, 73);

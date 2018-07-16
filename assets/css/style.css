@@ -38,6 +38,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+.navbar-end {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
 .nav-wrapper{
     padding-left:70px;
     padding-right:40px;
